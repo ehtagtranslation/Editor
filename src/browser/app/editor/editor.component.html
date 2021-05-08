@@ -274,6 +274,17 @@
           <mat-spinner class="loading" [diameter]="24"></mat-spinner>
         </ng-template>
       </button>
+      <button
+        mat-raised-button
+        color="accent"
+        class="icon-button"
+        [disabled]="tagForm.invalid || !(isEditableNs | async) || tagForm.pristine || !(github.tokenChange | async)"
+        (click)="submit()"
+        (focus)="preSubmit()"
+        (mouseenter)="preSubmit()"
+      >
+        <mat-icon>more_vert</mat-icon>
+      </button>
     </div>
   </footer>
 </div>
