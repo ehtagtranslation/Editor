@@ -28,7 +28,7 @@
     "@nestjs/platform-fastify": "~7.6.17",
     "@nestjs/swagger": "~4.8.0",
     "@octokit/auth-app": "~3.0.0",
-    "@octokit/auth-oauth-app": "~3.0.8",
+    "@octokit/auth-oauth-app": "~4.3.0",
     "@octokit/rest": "~18.3.5",
     "axios": "~0.21.0",
     "bluebird": "~3.7.2",
